@@ -5,9 +5,6 @@
 
 image::http://lh4.googleusercontent.com/-4TYoUsMzH6M/VrntRcl461I/AAAAAAAAjdc/6s3YM6tCVZc/w740-h434-no/2015-12-20-material-design.jpg[]
 
-:hp-alt-title: Google Material Design
-
-
 Desde que comecei a usar frameworks CSS (leia-se aqui Twitter Bootstrap ou simplesmente Bootstrap) algo mudou na maneira como eu criava websites ou personalizava templates Joomla. Era prático e fácil personalizar posições, botões, cores, layouts e etc =) as coisas não ficam tão feias (pensando apenas na funcionalidade) mas era o começo de uma paixão por praticidade e indepência. Tudo que criava ficava mais bonitinho e eu não precisava me preocupar tanto com design.
 
 Com a chegada do Material Design, uma nova janela se abriu e eu me joguei de vez em UX, Mobile First pois cada vez mais eu via que design não é apenas fazer algo “bonitinho” é ser prático, ter empatia e ativei o meu lado criativo (de músico) e percebi que eu também posso ser criativo, pensando de maneira “design thinking” e abraçar o problema não apenas solução.
