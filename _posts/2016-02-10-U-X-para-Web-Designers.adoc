@@ -1,5 +1,5 @@
 = UX para Web Designers
-
+:icons: font
 :published_at: 2016-02-10
 :hp-tags: ux, review
 
@@ -72,6 +72,11 @@ D. Wireframe de alta fidelidade
 ( 50% já é o próprio wireframe e 50% início do visual final do sistema.)
 
 ====== 5ª Camada:
+
+icon:comment[] This is a comment icon
+
+icon:file[] And a file icon
+ 
 #01 - Design visual.#
 [NOTE]
 (A cara que o sistema vai ter o design final.)
@@ -84,7 +89,7 @@ D. Wireframe de alta fidelidade
 
 [options="header,footer"]
 |=======================
-|Problema|Solução      |Interação
+|icon:file[]Problema|Solução      |Interação
 |A etapa em que vai descobrir qual é o real problema do usuário. Lá no fundo, qual é o problema que precisa ser resolvido?
 Isso com base em: Pesquisas e entrevistas com o usuário    |Descoberto qual o problema que precisa ser resolvido é preciso estabelecer e criar a melhor solução para o problema identificado.     |É a maneira com que o usuário vai interagir com isso. Aqui entra a usabilidade, por exemplo.
 |=======================
