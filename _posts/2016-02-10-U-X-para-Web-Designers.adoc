@@ -2,6 +2,7 @@
 :icons: font
 :published_at: 2016-02-10
 :hp-tags: ux, review
+https://docs.google.com/document/d/1zZpXyW5CtXnrnrHwrl0e-Xyf-r0K3a38w4xMZKXnA0I/edit
 
 image::https://udemy-images.udemy.com/course/750x422/115296_02e8_8.jpg[]
 ---
@@ -73,10 +74,7 @@ D. Wireframe de alta fidelidade
 
 ====== 5ª Camada:
 
-icon:comment[] This is a comment icon
 
-icon:file[] And a file icon
- 
 #01 - Design visual.#
 [NOTE]
 (A cara que o sistema vai ter o design final.)
@@ -89,7 +87,7 @@ icon:file[] And a file icon
 
 [options="header,footer"]
 |=======================
-|icon:file[]Problema|Solução      |Interação
+|Problema|Solução      |Interação
 |A etapa em que vai descobrir qual é o real problema do usuário. Lá no fundo, qual é o problema que precisa ser resolvido?
 Isso com base em: Pesquisas e entrevistas com o usuário    |Descoberto qual o problema que precisa ser resolvido é preciso estabelecer e criar a melhor solução para o problema identificado.     |É a maneira com que o usuário vai interagir com isso. Aqui entra a usabilidade, por exemplo.
 |=======================
@@ -99,30 +97,26 @@ Isso com base em: Pesquisas e entrevistas com o usuário    |Descoberto qual o p
 [NOTE]
 Passo difícil, pois é preciso descobrir e balancear o problema tanto na visão do usuário quanto na visão da empresa. O problema precisa estar coerente na visão de todos envolvidos no projeto.
 
-Descobrir o problema
-Na visão da Empresa
-Na visão do Usuário
-O que a empresa vende?
-Entrevistas com usuários.
-Quem são os clientes dessa empresa?
-Testes de usabilidade exploratórios, com produtos concorrentes já existentes. Para entender o problema do usuário.
-Como essa empresa ganha dinehiro?
-Observação. Observar o usuário no cotidiano dele, shadow, simplesmente observar como ele reage em determinada situação.
-Quais os objetivos de longo prazo?
-Análise de pesquisas anteriores.
-Quais os objetivos do projeto?
-Análise de dados sobre o perfil do público.
-Como a empresa pretende rentabilizar esse projeto?
-Aplicações de questionários.
+[options="header,footer"]
+|=======================
+|Na visão da Empresa|Na visão do Usuário      
+|Quem são os clientes dessa empresa?|Entrevistas com usuários
+|O que a empresa vende?|Testes de usabilidade exploratórios, com produtos concorrentes já existentes. Para entender o problema do usuário.
+|Como essa empresa ganha dinehiro?|Observação. Observar o usuário no cotidiano dele, shadow, simplesmente observar como ele reage em determinada situação
+|Quais os objetivos de longo prazo?|Análise de pesquisas anteriores.
+|Quais os objetivos do projeto?|Análise de dados sobre o perfil do público.
+|Como a empresa pretende rentabilizar esse projeto?|Aplicações de questionários.
+||Personas. Uma pessoa fictícia mas embasada no perfil real do público alvo. 
+|=======================
 
-
-Personas. Uma pessoa fictícia mas embasada no perfil real do público alvo.
-
+[NOTE]
 Exemplo do vídeo na prática: Uma entrevista onde começa a falar sobre um todo da empresa/projeto até ir afunilando até encontrar problemas e possíveis soluções que possa ter no projeto.
-Com todas as informações obtidas nessa conversa é preciso:
-Fazer um compilado de todas essas anotações listando apenas os itens importantes.
-Entrevistar personagens/pessoas que possam aparecer como problemas ou dúvidas no decorrer da entrevista.
-(Pode ser feito 4 ou 5 conversas/entrevistas assim.)
+
+#Com todas as informações obtidas nessa conversa é preciso:#
+
+* Fazer um compilado de todas essas anotações listando apenas os itens importantes.
+* Entrevistar personagens/pessoas que possam aparecer como problemas ou dúvidas no decorrer da entrevista.
+_(Pode ser feito 4 ou 5 conversas/entrevistas assim.)_
 
 
 
