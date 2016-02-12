@@ -2,7 +2,6 @@
 
 :published_at: 2016-02-10
 :hp-tags: ux, review
-:Author:    AlternativeWayToSetOptional Author Name
 
 image::https://udemy-images.udemy.com/course/750x422/115296_02e8_8.jpg[]
 ---
