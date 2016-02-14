@@ -163,6 +163,7 @@ Neste brainstorm lista todos os grandes/principais problemas encontrados onde to
 Aqui vai priorizar todas as ideias que foram propostas. Como não é viável produzir e executar tudo é selecionado as melhores ideias para resolver cada problema.
 _(Essas ideias sempre devem ser discutidas com todos os que estão inseridos no projeto.)_
 
+
 *Imprescindível:* 
 
 - Envolver toda a equipe e cliente nas decisões
@@ -198,9 +199,12 @@ _Passo em que é feito toda parte de prototipação, testes e ajustes._
 |=======================
 
 #*Passo 6* - Acompanhamento do projeto#
+
 [NOTE]
 O trabalho de experiência do usuário não é um trabalho só do profissional de UX. O profissional de UX é quem conhece os métodos que precisam ser aplicados e o que precisa ser feito antes do que para garantir uma boa experiência do usuário. Mas a experiência do usuário em si é fruto do trabalho em conjunto de todos os que estão envolvidos com o projeto. Não há como propor a melhor solução sem o envolvimentos de todos os envolvidos.
+
 [NOTE]
 Esse envolvimento faz com que a equipe esteja imersa no projeto e assim entenda melhor tudo o que precisa ser feito.
+
 [NOTE]
 Por experiência, como em um iceberg o problema está sempre mais embaixo, mais profundo. E sempre tem que estar balanceado Experiência do Usuário X Interesses da Empresa.
