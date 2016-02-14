@@ -2,7 +2,6 @@
 :icons: font
 :published_at: 2016-02-10
 :hp-tags: ux, review
-https://docs.google.com/document/d/1zZpXyW5CtXnrnrHwrl0e-Xyf-r0K3a38w4xMZKXnA0I/edit
 
 image::https://udemy-images.udemy.com/course/750x422/115296_02e8_8.jpg[]
 ---
@@ -119,29 +118,34 @@ Exemplo do vídeo na prática: Uma entrevista onde começa a falar sobre um todo
 _(Pode ser feito 4 ou 5 conversas/entrevistas assim.)_
 
 
+[options="header,footer"]
+|=======================
+|Inventário de Conteúdo 
+|*Movitações X Restrições*
+|_(De acordo com o projeto define-se pontos negativos e positivos, cruzando esses pontos onde vai surgir problemas e soluções.)_
+|=======================
 
-Inventário de Conteúdo
-Motivações
-Restrições
-(De acordo com o projeto define-se pontos negativos e positivos, cruzando esses pontos onde vai surgir problemas e soluções.)
 
-Passo 2 - Encontrar Soluções
+#Passo 2 - Encontrar Soluções#
+[NOTE]
 Passo feito para ter ideias, não necessaŕiamente válidas. A decisão final das ideias/soluções que realmente vão ser utilizadas vem no passo 3.
 
-Encontrar Soluções
-1 - Benchmarking
-(Como empresas de outros mercados resolvem esses problemas?)
-2 - Análise de concorrência
-(Como outros players do mesmo mercado que estou, solucionam esses problemas?)
-3 - Análise de tendência
-(Para onde o mercado está indo e do que posso me adiantar e tirar proveito disso agora?)
-4 - Brainstorm
-(Feito os itens anteriores começa as rodadas de brainstorm junto a todos os envolvidos no projeto)
+[options="header,footer"]
+|=======================
+|Encontrar Soluções 
+|1 - Benchmarking: _Como empresas de outros mercados resolvem esses problemas?_
+|2 - Análise de concorrência: _Como outros players do mesmo mercado que estou, solucionam esses problemas?_
+|3 - Análise de tendência: _Para onde o mercado está indo e do que posso me adiantar e tirar proveito disso agora?_
+|4 - Brainstorm: _Feito os itens anteriores começa as rodadas de brainstorm junto a todos os envolvidos no projeto_
+|=======================
 
-Dica: Envolver toda a equipe e cliente (se possível) na criação de soluções.
-(Garantir que todos tiveram entendimentos iguais do problema.)
-Apresentar as descobertas do passo 1
-Fazer rodadas de brainstorm (com hora marcada)
+===== Dica: Envolver toda a equipe e cliente (se possível) na criação de soluções.
+[NOTE]
+Garantir que todos tiveram entendimentos iguais do problema.
+
+- Apresentar as descobertas do passo 1
+- Fazer rodadas de brainstorm (com hora marcada)
+[NOTE]
 Neste brainstorm lista todos os grandes/principais problemas encontrados onde todos que estão reunidos começam a apontar possíveis soluções para melhorar ou solucionar aquele problema.
 
 Os 4 principais problemas encontrados
