@@ -6,7 +6,7 @@
 image::https://udemy-images.udemy.com/course/750x422/115296_02e8_8.jpg[]
 ---
 
-====== 1ª Camada:
+=== 1ª Camada:
 
 #01 - Necessidades do usuário. Qual a necessidade do usuário que vai ser atendida nesse sistema?#
 
@@ -15,7 +15,7 @@ image::https://udemy-images.udemy.com/course/750x422/115296_02e8_8.jpg[]
 
 #02 - Objetivos do sistema. Qual o objetivo do sistema, o que o sistema vai oferecer para que o usuário consiga atingir seu objetivo?#
 
-====== 2ª Camada:
+=== 2ª Camada:
 #01 - Requisitos de conteúdo. Quais são os requisitos de conteúdo?#
 
 [NOTE] 
@@ -26,7 +26,7 @@ image::https://udemy-images.udemy.com/course/750x422/115296_02e8_8.jpg[]
 [NOTE] 
 (O que da para fazer no sistema, o que vai ter de função, quais funcionalidades vai ter para que o usuário consiga atingir seu objetivo?)
 
-====== 3ª Camada:
+=== 3ª Camada:
 #01 - Arquitetura da informação.#
 (organizar todas as informações anteriores em 4 grandes sistemas)
 
@@ -44,7 +44,7 @@ D. Sistema de Busca
 [NOTE]
 (Em tela touch, com o mouse, comando de voz, gestos, ele vai estar na rua com celular, na fila de um banco com celular, no ônibus com um tablet?)
 
-====== 4ª Camada:
+=== 4ª Camada:
 
 #01 - Design da informação. Como exibir a informação, da melhor forma possível, de acordo com as necessidades e objetivos do usuário?#
 
@@ -71,7 +71,7 @@ D. Wireframe de alta fidelidade
 [NOTE]
 ( 50% já é o próprio wireframe e 50% início do visual final do sistema.)
 
-====== 5ª Camada:
+=== 5ª Camada:
 
 
 #01 - Design visual.#
