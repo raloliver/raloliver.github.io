@@ -1,4 +1,4 @@
-= SASS & Compass: Review
+= Sass & Compass: Review
 :published_at: 2016-02-14
 :hp-tags: css, sass, review
 
