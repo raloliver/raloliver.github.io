@@ -1,4 +1,4 @@
-= UX para Web Designers
+= Ux para Web Designers
 :icons: font
 :published_at: 2016-02-10
 :hp-tags: ux, review
