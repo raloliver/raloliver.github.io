@@ -56,14 +56,14 @@ color: black;
 
 *for*
 "Inicia uma variável e executa uma ação, incrementando essa variável um determinado número de vezes."
-
+```
 @for $i from 1 through 4 {
 .item-#{$i} {
 width: 10px * $i;
 font-size: 10px * $i;
 }
 }
-
+```
 *each*
 "Define uma variável para item de uma lista de valores, produzindo blocos de código utilizando os valores da lista."
 	
@@ -118,21 +118,21 @@ A minha opinião é de que você não precisa aprender todas as novas ferramenta
 Muitos devs perdem tempo precioso dando atenção para novas ferramentas que nem serão usadas pela equipe ou que morrerão nos próximos meses.
 
 Para usar o Sass é preciso instalar o ruby, como orientado no próprio site da documentação. A extensão do arquivo padrão é .scss e para observar as mudanças e a compilação do arquivo final (.css) o comando é:
-
+```
 sass --watch file.scss:file.css
-
+```
 Uma boa prática é observar os nome dos diretórios e arquivos com o _ na frente. As variáveis são criadas a partir do $, exemplo: $color. Geralmente existe um arquivo principal .scss que faz a chamada via import de todos os outros arquivos. Mantenha sempre as variáveis num único arquivo, assim como os mixins, usando sempre a pasta helpers para padronizar a estrutura.
 
 No Sass existem as funções, mixins, variáveis, aninhamento e outros detalhes que naturalmente não seria possível no css normal. O @include, faz referencia a chamada de um mixin. 
 
-Mixins
+*Mixins*
 O @mixin é criado de maneira parecida com o placeholder, mas aceita valores padrão, como no exemplo a seguir:
-
+```
 @mixin border-radius($radius: 0.3em) {
   -webkit-border-radius: $radius;
   border-radius: $radius;
 }
-
+```
 Geralmente os mixins são usados para bloco de códigos, mas você pode usar os do Compass (framework) também. É possível com o @mixin receber argumentos na função, inclusive com a opção de valor padrão.
 
 Functions
@@ -148,7 +148,7 @@ Ainda é possível arrendodar o resultado de uma operação, usando a função r
 PlaceHolder
 Para criar extend e placeholder, basta usar o % na frente na criação e chamar atraves do @extend.
 Com o @extend você invoca um placeholder e faz chamada via %.
-
+```
 %image-replacement {
   text-indent: -9999px;
   overflow: hidden;
@@ -158,7 +158,7 @@ Com o @extend você invoca um placeholder e faz chamada via %.
 .plataformas li {
   @extend %image-replacement;
 }
-
+```
 Existem comandos internos no SASS para assistir, compilar e comprimir.
 Com o Sass também é possível realizar aninhamento (nesting) o que reduz a quantidade de código e sempre faz referencia ao item pai, exemplo:
 	
