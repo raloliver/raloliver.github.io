@@ -41,7 +41,7 @@
     <meta property="og:description" content="O CSS é uma linguagem um pouco burra quando se trata de lógica e tudo nos pré-processadores é pensando em como você consegue melhorar mais seu código e como ele pode ficar mais organizado. O CSS é muito simples. Mas..." />
     <meta property="og:url" content="https://raloliver.github.io/2016/02/14/Sass-Compass-Review.html" />
     <meta property="article:published_time" content="2016-02-14T02:00:00.000Z" />
-    <meta property="article:modified_time" content="2016-02-15T13:01:38.505Z" />
+    <meta property="article:modified_time" content="2016-02-18T15:59:50.091Z" />
     <meta property="article:tag" content="css" />
     <meta property="article:tag" content="sass" />
     <meta property="article:tag" content="review" />
@@ -66,7 +66,7 @@
     "headline": "Sass &amp; Compass: Review",
     "url": "https://raloliver.github.io/2016/02/14/Sass-Compass-Review.html",
     "datePublished": "2016-02-14T02:00:00.000Z",
-    "dateModified": "2016-02-15T13:01:38.505Z",
+    "dateModified": "2016-02-18T15:59:50.091Z",
     "keywords": "css,  sass,  review",
     "description": "O CSS é uma linguagem um pouco burra quando se trata de lógica e tudo nos pré-processadores é pensando em como você consegue melhorar mais seu código e como ele pode ficar mais organizado. O CSS é muito simples. Mas..."
 }
@@ -257,13 +257,15 @@ color: black;
 <p><strong>for</strong>
 "Inicia uma variável e executa uma ação, incrementando essa variável um determinado número de vezes."</p>
 </div>
-<div class="paragraph">
-<p>@for $i from 1 through 4 {
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>@for $i from 1 through 4 {
 .item-#{$i} {
 width: 10px * $i;
 font-size: 10px * $i;
 }
-}</p>
+}</code></pre>
+</div>
 </div>
 <div class="paragraph">
 <p><strong>each</strong>
@@ -334,8 +336,10 @@ Usando extend</p>
 <div class="paragraph">
 <p>Para usar o Sass é preciso instalar o ruby, como orientado no próprio site da documentação. A extensão do arquivo padrão é .scss e para observar as mudanças e a compilação do arquivo final (.css) o comando é:</p>
 </div>
-<div class="paragraph">
-<p>sass --watch file.scss:file.css</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>sass --watch file.scss:file.css</code></pre>
+</div>
 </div>
 <div class="paragraph">
 <p>Uma boa prática é observar os nome dos diretórios e arquivos com o _ na frente. As variáveis são criadas a partir do $, exemplo: $color. Geralmente existe um arquivo principal .scss que faz a chamada via import de todos os outros arquivos. Mantenha sempre as variáveis num único arquivo, assim como os mixins, usando sempre a pasta helpers para padronizar a estrutura.</p>
@@ -344,14 +348,16 @@ Usando extend</p>
 <p>No Sass existem as funções, mixins, variáveis, aninhamento e outros detalhes que naturalmente não seria possível no css normal. O @include, faz referencia a chamada de um mixin.</p>
 </div>
 <div class="paragraph">
-<p>Mixins
+<p><strong>Mixins</strong>
 O @mixin é criado de maneira parecida com o placeholder, mas aceita valores padrão, como no exemplo a seguir:</p>
 </div>
-<div class="paragraph">
-<p>@mixin border-radius($radius: 0.3em) {
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>@mixin border-radius($radius: 0.3em) {
   -webkit-border-radius: $radius;
   border-radius: $radius;
-}</p>
+}</code></pre>
+</div>
 </div>
 <div class="paragraph">
 <p>Geralmente os mixins são usados para bloco de códigos, mas você pode usar os do Compass (framework) também. É possível com o @mixin receber argumentos na função, inclusive com a opção de valor padrão.</p>
@@ -372,18 +378,17 @@ width: fixed-width(18);</p>
 Para criar extend e placeholder, basta usar o % na frente na criação e chamar atraves do @extend.
 Com o @extend você invoca um placeholder e faz chamada via %.</p>
 </div>
-<div class="paragraph">
-<p>%image-replacement {
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>%image-replacement {
   text-indent: -9999px;
   overflow: hidden;
   background-repeat: no-repeat;
-}</p>
-</div>
-<div class="literalblock">
-<div class="title">plataformas li {</div>
-<div class="content">
-<pre>  @extend %image-replacement;
-}</pre>
+}
+
+.plataformas li {
+  @extend %image-replacement;
+}</code></pre>
 </div>
 </div>
 <div class="paragraph">
