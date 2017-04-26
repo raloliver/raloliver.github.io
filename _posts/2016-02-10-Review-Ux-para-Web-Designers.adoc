@@ -1,7 +1,7 @@
-= Ux para Web Designers
+= Review: Ux para Web Designers
 :icons: font
 :published_at: 2016-02-10
-:hp-tags: ux, review
+:hp-tags: ux, review, udemy, cursos
 
 image::https://udemy-images.udemy.com/course/750x422/115296_02e8_8.jpg[]
 ---
