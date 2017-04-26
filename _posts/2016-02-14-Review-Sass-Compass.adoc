@@ -1,6 +1,6 @@
 = Review: Sass & Compass
 :published_at: 2016-02-14
-:hp-tags: css, sass, review, alura
+:hp-tags: css, sass, review, alura, cursos
 
 image::https://lh4.googleusercontent.com/-bQ80p_sfJFs/Vr_lTMQ0SUI/AAAAAAAAjjM/bSeszDif3fU/w1207-h905-no/Sass_Logo_Color.svg.png[]
 ---
