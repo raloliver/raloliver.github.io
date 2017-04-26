@@ -1,9 +1,9 @@
-= Sass & Compass: Review
+= Review: Sass & Compass
 :published_at: 2016-02-14
-:hp-tags: css, sass, review
+:hp-tags: css, sass, review, alura
 
 image::https://lh4.googleusercontent.com/-bQ80p_sfJFs/Vr_lTMQ0SUI/AAAAAAAAjjM/bSeszDif3fU/w1207-h905-no/Sass_Logo_Color.svg.png[]
-
+---
 O CSS é uma linguagem um pouco burra quando se trata de lógica e tudo nos pré-processadores é pensando em como você consegue melhorar mais seu código e como ele pode ficar mais organizado. 
 
 O CSS é muito simples. Mas uma má organização pode levar equipes inteiras à loucura em longo prazo. Mas tenha em mente que ele, o SASS, não é uma ferramenta para escrever menos CSS, mas para organizar seu CSS
