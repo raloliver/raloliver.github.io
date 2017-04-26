@@ -49,27 +49,29 @@
 
 #*Vlogs/Canais*#
 
-School of Life https://www.youtube.com/user/schooloflifechannel/playlists
-Crash Course
-https://www.youtube.com/user/crashcourse/playlists
-Youtuber Gamer - HappyConsoleGamer
-https://www.youtube.com/channel/UC2vUKoTGIwNYq4LO0YWKPIg
-Cultura Pop - PBS Idea Channel
-https://www.youtube.com/channel/UC3LqW4ijMoENQ2Wv17ZrFJA
-Science Channel - SciShow
-https://www.youtube.com/user/scishow/featured
+1. https://www.youtube.com/user/schooloflifechannel/playlists[School of Life]
+1. https://www.youtube.com/user/crashcourse/playlists[Crash Course]
+1. https://www.youtube.com/channel/UC2vUKoTGIwNYq4LO0YWKPIg[Youtuber Gamer - HappyConsoleGamer]
+1. https://www.youtube.com/channel/UC3LqW4ijMoENQ2Wv17ZrFJA[Cultura Pop - PBS Idea Channel]
+1. https://www.youtube.com/user/scishow/featured[Science Channel - SciShow]
 
-#*Indicação*#
+#*Canais no Youtube*#
 
-https://www.youtube.com/watch?v=RY1r70I_Doo
-https://www.youtube.com/channel/UCDyjlawtWnY7j1C2RyObZlg
-https://www.youtube.com/channel/UCNirOQBP88BVoRZD0GtS9xQ
-https://www.youtube.com/channel/UCskEPRzGlsYHs_a5SJyCXag
-https://www.youtube.com/channel/UC15HDk6sVZvWFomxNTMr3zw
-https://www.youtube.com/channel/UCcNm9fM9V5wf-0PZVmkM08g
-https://www.youtube.com/channel/UCX1Khol-7w7ZUbDPngo_-0g
+1. https://www.youtube.com/watch?v=RY1r70I_Doo[Felipe Neto: COMO EU APRENDI INGLÊS (E VOCÊ TAMBÉM VAI APRENDER)]
+
+1. https://www.youtube.com/channel/UCDyjlawtWnY7j1C2RyObZlg[Mairo Vergara]
+1. https://www.youtube.com/channel/UCNirOQBP88BVoRZD0GtS9xQ[Canal do Paulo Nideck]
+1. https://www.youtube.com/channel/UCskEPRzGlsYHs_a5SJyCXag[Canal SmallAdvantages]
+1. https://www.youtube.com/channel/UC15HDk6sVZvWFomxNTMr3zw[Canal Cintia disse]
+1. https://www.youtube.com/channel/UCcNm9fM9V5wf-0PZVmkM08g[Carina Fragozo]
+1. https://www.youtube.com/channel/UCX1Khol-7w7ZUbDPngo_-0g[Canal Juliana Selem]
+1. https://www.youtube.com/channel/UCVBErcpqaokOf4fI5j73K_w[Learn English with Emma [engVid]]
 
 #*Extensões do Chrome*#
+
+1. https://chrome.google.com/webstore/detail/google-dictionary-by-goog/mgijmajocgfcbeboacabfgobmjgjcoja[Google Dictionary (by Google)]
+1. https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen[Grammarly for Chrome]
+
 
 
 > Fonte https://goo.gl/oeWUdp[Lucas Santana]
