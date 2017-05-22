@@ -1,0 +1,90 @@
+= Review: Lean Startup: Primeiros passos da sua startup enxuta
+Álvaro Armond
+:published_at: 2016-12-08
+:hp-tags: startup, lean, review, alura, cursos
+
+image::https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?dpr=1&auto=format&fit=crop&w=1500&h=1218&q=80&cs=tinysrgb&crop=&bg=[]
+
+---
+
+- Reduzir o tempo de desenvolvimento de um produto e que isso gerar recursos.
+- Conceito de Early Adopters
+- Validação é a solução: 1.Construir, 2.Medir, 3.Aprender
+- MVP: conhecimento, não precisa ser final, passa por estágios, construído a partir do processo de validação (venda do sumário)
+- Um único problema, um cliente em vista e uma solução.
+- Seja claro com relação a sua solução
+- Repositório de soluções (desenvolvimento ágil com documentação do processo, não precisa ser detalhista, um checklist ta de bom tamanho pra começar)
+- MVP x MLP
+- MVP é conhecimento validado
+- Não é necessário gastar tempo com longos desenvolvimentos de software para validar o negócio, buscar soluções inteligentes, econômicas e ser rápido em fazer isso é sempre o melhor caminho.
+
+*#BENEFÍCIOS*#
+
+- Velocidade, habilidade de aprender, data freaky, o instinto é bom para começar e recomeçar, proximidade da linha de frente, spin off: capital de risco e uma empresa pra tocar , startup: ganhar em escala; oferece respostas rápidas; tenha firmeza e decida por si mesmo; faça, faça e faça mais um pouco.
+- Voltar a aplicar o LEAN para aumentar a longevidade do produto e/ou criar novos produtos.
+
+*#ESTÁGIOS (Validação de público, problema e solução (protótipo))*#
+
+1. Exploração do problema: ambientado onde está o cliente (persona)
+	- Entrevista exploratória: "Você já teve esse problema?" / "Conte um caso relacionado com este problema." / "Qual seria a sua solução ideal para este problema?" 
+	- Utilize User Story
+	- Valide o público, o problema e a solução
+	- Use prototipos para validar a pseudosolução
+
+2. Estruturação do produto vendável
+- Precificação top-down (valide com 5 clientes e comece de cima)
+- Inovação (exemplo: superplay) Como você pode inovar no seu negócio? De alguma forma tem que inovar, seja no segmento ou na forma de entregar.
+- Beta: a estruturação do produto vendável, não depende de testers locais, mas sim de testes por parte dos early adopters (customer developer)
+
+3. Recepção
+	- Como você pode simular no seu negócio o funcionamento do seu sistema (concierge)?
+
+#*Exemplos:*#
+
+- Google Wave 2009 a massa não aderiu (nova forma de enviar emails)
+- Quantos pagaram pelo valor que você pediu? Foi a maioria?
+- Dropbox: MVP com vídeo e landing page (venda do sumário)
+- EasyTaxi: encontrar primeiro os taxistas
+
+#*PIVOT (mudança no produto e na forma como você vai vender)*#
+
+- Pivôs são mudanças na essência da solução que impactam o modelo de negócios. Se você decidir vender um produto e perceber que não pode vender caro, mas consegue vender barato, isto significa que você trabalha com volume e não com preço e precisará "pivotar" seu modelo e sua solução, iniciando assim um novo ciclo iterativo.
+- Se pivotou tem um novo MPV na área.
+- Zoom-in e Zoom-out, tipos de pivotagem.
+- Zoom-in: Flickr (jogo que virou um compartilhamento de imagens)
+- Zoom-out: Getresponse (começou como uma ferramenta de disparo de email)
+- Pivotagem na seguimentação do cliente, exemplo: FORD x CHEVROLET
+- Plataforma em produto e produto em plataforma (o leadlovers é uma plataforma)
+- Geração de Receita: como você vai cobrar pelo seu produto? Vai trabalhar no volume ou com preço? Qual o tamanho e disposição do seu mercado?
+- Qual o seu modelo de crescimento? Qual o seu Growth?
+
+#*EXEMPLOS: landing pages e validação de hipóteses (10% de roi pra validação)*#
+
+- Dropbox.com: https://www.youtube.com/watch?v=7QmCUDHpNzE
+- A validação pode ser um formulário do Google por exemplo
+- SalesForce.com: mais um exemplo de LP simples
+- Google Analytics para monitorar o comportamento do lead
+- Teste A/B com o leadlovers =D
+- Construa uma LP e lembre-se: Construir, Medir e Aprender
+- Use fontes de tráfego para atrair público a sua validação.
+
+Vídeos: 
+++++
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/HiBEO_okivs?ecver=1" frameborder="0" allowfullscreen></iframe>
+++++
+++++
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/eR0937Y-Pnc?list=PLZA1bR2ZZkpImhv1dQ9z0e12As08H6Axq&amp;ecver=1" frameborder="0" allowfullscreen></iframe>
+++++
+
+*#TIPOS DE STARTUPS#*
+
+- Pequenos Negócios: pouca changes de lucro líquido na faixa de milhões.
+- Escaláveis: o crescimento deve ser rápido para o concorrente não explorar o mesmo caminho.
+- Compráveis: pequeno app ou negócio onde o dono investe o seu dinheiro e aguarda ser comprado por outra empresa maior.
+- Grandes Empresas: fintechs e bancos que investem em startups e em novos produtos.
+- Social: uma causa muito forte.
+- Estilo de Vida: uma forma mais suave de criar e crescer uma startup para agradar o estilo de vida do empreendedor.
+
+#*EXEMPLO: investe R$1000, fatura 10x mais, tem 3x de despesa e tem 7x de lucro, reinveste 2x e fica com 5x.*# 
+
+=== Apenas você pode decidir o que é melhor pra você.
