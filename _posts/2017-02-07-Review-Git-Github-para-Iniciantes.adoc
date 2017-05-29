@@ -55,23 +55,11 @@ git config --global user.name "Ral Oliver"
 - `git reset --hard`: ignorar a existência do commit e das alterações (*MUITO CALMA NESSA ALMA*)
 
 #*GITHUB*#
-```
-git remote add origin https://github.com/raloliver/githando.git
-```
-> origin nome default pra origem do remoto
-```
-git push -u origin master (trackear repositorio)
-```
-> num primeiro momento é interessante usar tudo com -u para nas próximas vezes digitar apenas `gut push`
-```
-git remote -v
-```
-> mais detalhes da origem do repositório remoto
-```
-git pull
-```
-> atualizar remote
 
+- `git remote add origin https://github.com/raloliver/githando.git`: origin nome default pra origem do remoto
+- `git push -u origin master (trackear repositorio)`: num primeiro momento é interessante usar tudo com -u para nas próximas vezes digitar apenas `gut push`
+`git remote -v`: mais detalhes da origem do repositório remoto
+`git pull`: atualizar remote
 - `master`: brunch inicial
 - `git clone`: url SSH para clonar o repo local, não pode modificar e realizar push
 - `fork`: fazer uma copia pra depois enviar as modificações (`pull-request`)
@@ -83,9 +71,9 @@ e um novo branch pode apontar para um mesmo commit, ou você pode ter um novo br
 
 > vantagens: modificar sem alterar o master / facilmente desligável / melhor para equipes / evita conflitos e posso trabalhar com o mesmo arquivo.
 
-- criação do brunch: `git checkout -b israel`  
-- lista: `git branch`
-- entraR: `git checkout master`
+- `git checkout -b israel`: criação do brunch
+- `git branch`: listar brunchs
+- `git checkout master`: entrar numa brunch
 
 #*DELETAR BRUNCH*#
 
