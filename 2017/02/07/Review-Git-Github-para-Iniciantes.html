@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Review: Git &amp; Github para Iniciantes</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="//raloliver.github.io/themes/uno-zen/assets/img/apple-touch-icon-57x57.png?v=wAAv6Wqe6l?v=1.0.0">
+    <link rel="apple-touch-icon" sizes="60x60" href="//raloliver.github.io/themes/uno-zen/assets/img/apple-touch-icon-60x60.png?v=wAAv6Wqe6l?v=1.0.0">
+    <link rel="apple-touch-icon" sizes="72x72" href="//raloliver.github.io/themes/uno-zen/assets/img/apple-touch-icon-72x72.png?v=wAAv6Wqe6l?v=1.0.0">
+    <link rel="apple-touch-icon" sizes="76x76" href="//raloliver.github.io/themes/uno-zen/assets/img/apple-touch-icon-76x76.png?v=wAAv6Wqe6l?v=1.0.0">
+    <link rel="apple-touch-icon" sizes="114x114" href="//raloliver.github.io/themes/uno-zen/assets/img/apple-touch-icon-114x114.png?v=wAAv6Wqe6l?v=1.0.0">
+    <link rel="apple-touch-icon" sizes="120x120" href="//raloliver.github.io/themes/uno-zen/assets/img/apple-touch-icon-120x120.png?v=wAAv6Wqe6l?v=1.0.0">
+    <link rel="apple-touch-icon" sizes="144x144" href="//raloliver.github.io/themes/uno-zen/assets/img/apple-touch-icon-144x144.png?v=wAAv6Wqe6l?v=1.0.0">
+    <link rel="apple-touch-icon" sizes="152x152" href="//raloliver.github.io/themes/uno-zen/assets/img/apple-touch-icon-152x152.png?v=wAAv6Wqe6l?v=1.0.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="//raloliver.github.io/themes/uno-zen/assets/img/apple-touch-icon-180x180.png?v=wAAv6Wqe6l?v=1.0.0">
+    <link rel="icon" type="image/png" href="//raloliver.github.io/themes/uno-zen/assets/img/favicon-32x32.png?v=wAAv6Wqe6l?v=1.0.0" sizes="32x32">
+    <link rel="icon" type="image/png" href="//raloliver.github.io/themes/uno-zen/assets/img/favicon-194x194.png?v=wAAv6Wqe6l?v=1.0.0" sizes="194x194">
+    <link rel="icon" type="image/png" href="//raloliver.github.io/themes/uno-zen/assets/img/favicon-96x96.png?v=wAAv6Wqe6l?v=1.0.0" sizes="96x96">
+    <link rel="icon" type="image/png" href="//raloliver.github.io/themes/uno-zen/assets/img/android-chrome-192x192.png?v=wAAv6Wqe6l?v=1.0.0" sizes="192x192">
+    <link rel="icon" type="image/png" href="//raloliver.github.io/themes/uno-zen/assets/img/favicon-16x16.png?v=wAAv6Wqe6l?v=1.0.0" sizes="16x16">
+    <link rel="manifest" href="//raloliver.github.io/themes/uno-zen/assets/img/manifest.json?v=wAAv6Wqe6l?v=1.0.0">
+    <link rel="shortcut icon" href="//raloliver.github.io/themes/uno-zen/assets/img/favicon.ico?v=wAAv6Wqe6l?v=1.0.0">
+    <meta name="msapplication-TileColor" content="#e74c3c">
+    <meta name="msapplication-TileImage" content="//raloliver.github.io/themes/uno-zen/assets/img/mstile-144x144.png?v=wAAv6Wqe6l?v=1.0.0">
+    <meta name="msapplication-config" content="//raloliver.github.io/themes/uno-zen/assets/img/browserconfig.xml?v=wAAv6Wqe6l?v=1.0.0">
+    <meta name="theme-color" content="#e74c3c">
+    <link rel="stylesheet" type="text/css" href="//raloliver.github.io/themes/uno-zen/assets/css/uno-zen.css?v=1.0.0" />
+    <link rel="canonical" href="https://raloliver.github.io/2017/02/07/Review-Git-Github-para-Iniciantes.html" />
+    
+    <meta property="og:site_name" content="Ral Oliver - Frontend Developer" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Review: Git &amp; Github para Iniciantes" />
+    <meta property="og:description" content="Principais comandos do terminal: https://goo.gl/DqpEBa Git: trabalha com os estados dos arquivos (outros sistemas trabalham com as diferenças). Snapshots: estados dos arquivos, todos os estados levam os arquivos daquele momento. História (linus torvalds): bitkeeper; mesmo criado..." />
+    <meta property="og:url" content="https://raloliver.github.io/2017/02/07/Review-Git-Github-para-Iniciantes.html" />
+    <meta property="article:published_time" content="2017-02-07T02:00:00.000Z" />
+    <meta property="article:modified_time" content="2017-05-29T16:57:43.269Z" />
+    <meta property="article:tag" content="git" />
+    <meta property="article:tag" content="github" />
+    <meta property="article:tag" content="review" />
+    <meta property="article:tag" content="teachable" />
+    <meta property="article:tag" content="willianjusten" />
+    <meta property="article:tag" content="cursos" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Review: Git &amp; Github para Iniciantes" />
+    <meta name="twitter:description" content="Principais comandos do terminal: https://goo.gl/DqpEBa Git: trabalha com os estados dos arquivos (outros sistemas trabalham com as diferenças). Snapshots: estados dos arquivos, todos os estados levam os arquivos daquele momento. História (linus torvalds): bitkeeper; mesmo criado..." />
+    <meta name="twitter:url" content="https://raloliver.github.io/2017/02/07/Review-Git-Github-para-Iniciantes.html" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Ral Oliver - Frontend Developer",
+    "author": {
+        "@type": "Person",
+        "name": "Israel Oliveira",
+        "image": "https://avatars1.githubusercontent.com/u/4580335?v=3",
+        "url": "undefined/author/undefined",
+        "sameAs": "https://medium.com/@raloliver"
+    },
+    "headline": "Review: Git &amp; Github para Iniciantes",
+    "url": "https://raloliver.github.io/2017/02/07/Review-Git-Github-para-Iniciantes.html",
+    "datePublished": "2017-02-07T02:00:00.000Z",
+    "dateModified": "2017-05-29T16:57:43.269Z",
+    "keywords": "git,  github,  review,  teachable,  willianjusten,  cursos",
+    "description": "Principais comandos do terminal: https://goo.gl/DqpEBa Git: trabalha com os estados dos arquivos (outros sistemas trabalham com as diferenças). Snapshots: estados dos arquivos, todos os estados levam os arquivos daquele momento. História (linus torvalds): bitkeeper; mesmo criado..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost ?" />
+    <link rel="alternate" type="application/rss+xml" title="Ral Oliver - Frontend Developer" href="https://raloliver.github.io/rss" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+  </head>
+  <body class="post-template tag-git tag-github tag-review tag-teachable tag-willianjusten tag-cursos">
+    <header id="menu-button" class="expanded">
+      <a><i class="icon icon-list"></i></a>
+    </header>
+    <aside class="cover" style="background: url(http://raloliver.com.br/capa.jpg) center/cover no-repeat fixed">
+      <div class="cover container">
+        <div class="profile">
+          <a id="avatar-link" title="link to homepage for Ral Oliver - Frontend Developer" href="https://raloliver.github.io/#open">
+            <img src="https://avatars3.githubusercontent.com/u/4580335?v=3&amp;s=460" alt="Ral Oliver - Frontend Developer avatar" class="profile avatar rounded hvr-buzz-out" />
+            <h1 id="profile-title">Ral Oliver - Frontend Developer</h1>
+            <h3 id="profile-resume"></h3>
+          </a>
+    
+          <hr class="divider long" />
+          <p>Quando você abre as portas do seu processo e convida as pessoas para que o acompanhem, você aprende: Gratidão, Honestidade, Disciplina, Coerência e Criatividade.</p>
+          <hr class="divider short" />
+          <div class="navigation">
+            <div class="profile contact">
+              
+              <nav class="navigation right">
+                <ul class="social expanded">
+              
+                  <!-- Twitter -->
+                  <li class="social item hvr-grow-rotate">
+                    <a rel="me" href="http://fb.com/raloliver" title="Facebook account">
+                      <i class='icon icon-social-facebook'></i>
+                      <span class="label">Facebook</span>
+                    </a>
+                  </li>
+              
+                  <!-- Twitter -->
+                  <li class="social item hvr-grow-rotate">
+                    <a rel="me" href="http://twitter.com/raloliver" title="Twitter account">
+                      <i class='icon icon-social-twitter'></i>
+                      <span class="label">Twitter</span>
+                    </a>
+                  </li>
+              
+                  <!-- Google Plus -->
+                  <li class="social item hvr-grow-rotate">
+                    <a rel="me" href="http://plus.google.com/+raloliver" title="Google+ account">
+                      <i class='icon icon-social-google-plus'></i>
+                      <span class="label">Google-plus</span>
+                    </a>
+                  </li>
+              
+                  <!-- Github -->
+                  <li class="social item hvr-grow-rotate">
+                    <a rel="me" href="https://github.com/raloliver/" title="Github account">
+                      <i class='icon icon-social-github'></i>
+                      <span class="label">Github</span>
+                    </a>
+                  </li>
+                  </li>
+              
+                  <!-- Github -->
+                  <li class="social item hvr-grow-rotate">
+                    <a rel="me" href="http://instagram.com/raloliver" title="Instagram account">
+                      <i class='icon icon-social-instagram'></i>
+                      <span class="label">Instagram</span>
+                    </a>
+                  </li>
+                  </li>
+              
+              
+              
+                  <!-- LinkedIn -->
+                  <li class="social item hvr-grow-rotate">
+                    <a rel="me" href="http://www.linkedin.com/in/raloliver" title="LinkedIn account">
+                      <i class='icon icon-social-linkedin'></i>
+                      <span class="label">LinkedIn</span>
+                    </a>
+                  </li>
+              
+                  <!-- Email -->
+                  <li class="social item hvr-grow-rotate">
+                    <a rel="me" href="mailto:contato@raloliver.com" title="Email contato@raloliver.com">
+                      <i class='icon icon-mail'></i>
+                      <span class="label">Email</span>
+                    </a>
+                  </li>
+              
+                </ul>
+              </nav>
+              <!-- <section class="icon icon-search" id="search-container">
+      <hr class="divider short" />
+      <form id="search-form">
+        <input type="text", name="search", placeholder="git, css, javascript,..." id="search-field" />
+      </form>
+    </section>
+     -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <main>
+      <section id="search-results"></section>
+      <section class="content">
+        
+
+  <article class="post tag-git tag-github tag-review tag-teachable tag-willianjusten tag-cursos">
+    <header>
+      <div class="post meta">
+        <time datetime="07 Feb 2017">07 Feb 2017</time>
+        <span class="post tags">in <a href="https://raloliver.github.io/tag/git">git</a> <a href="https://raloliver.github.io/tag/github"> github</a> <a href="https://raloliver.github.io/tag/review"> review</a> <a href="https://raloliver.github.io/tag/teachable"> teachable</a> <a href="https://raloliver.github.io/tag/willianjusten"> willianjusten</a> <a href="https://raloliver.github.io/tag/cursos"> cursos</a></span>
+
+
+        <span class="post reading-time"> ~ <span></span> read.</span>
+      </div>
+      <a alt="Tweet 'Review: Git &amp; Github para Iniciantes'" href="https://twitter.com/intent/tweet?text=Review%3A%20Git%20%26%20Github%20para%20Iniciantes%20%C2%BB&amp;hashtags=git, github, review, teachable, willianjusten, cursos&amp;url=https://raloliver.github.io/2017/02/07/Review-Git-Github-para-Iniciantes.html">
+        
+        <h1 class="icon-reverse icon-social-twitter-post" id="post-title">Review: Git &amp; Github para Iniciantes</h1>
+      </a>
+    </header>
+
+    <div id="post-content" class="post tag-git tag-github tag-review tag-teachable tag-willianjusten tag-cursos">
+      <div class="imageblock">
+<div class="content">
+<img src="https://process.filestackapi.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://d2vvqscadf4c1f.cloudfront.net/agtKzpVQL25rGZut5tdz_maxresdefault%20(1).jpg" alt="agtKzpVQL25rGZut5tdz maxresdefault%20(1).jpg">
+</div>
+</div>
+<hr>
+<div class="paragraph">
+<p>Principais comandos do terminal: <a href="https://goo.gl/DqpEBa" class="bare">https://goo.gl/DqpEBa</a></p>
+</div>
+<div class="paragraph">
+<p><strong>Git</strong>: trabalha com os estados dos arquivos (outros sistemas trabalham com as diferenças).</p>
+</div>
+<div class="paragraph">
+<p><strong>Snapshots</strong>: estados dos arquivos, todos os estados levam os arquivos daquele momento.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="http://easycaptures.com/fs/uploaded/1132/3419459554.jpg" alt="3419459554.jpg">
+</div>
+</div>
+<div class="paragraph">
+<p>História (<strong>linus torvalds</strong>): bitkeeper; mesmo criador do linux (indignação); melhorias: velocidade, design, não linear, grandes projetos.</p>
+</div>
+<div class="paragraph">
+<p><mark><strong>CONFIGURATION</strong></mark></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>git.config
+git.config.user
+git.config.project
+git config --global user.name "Ral Oliver"</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><mark><strong>CICLO DE VIDA DOS STATUS DOS ARQUIVOS</strong></mark> (<a href="https://goo.gl/HrS4LF" class="bare">https://goo.gl/HrS4LF</a>)</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>untracked</code> (não marcado): arquivo acabou de ser adicionado, mas não visto pelo git</p>
+</li>
+<li>
+<p><code>unmodified</code>: existe, mas não foi modificado</p>
+</li>
+<li>
+<p><code>modified</code>: arquivo modificado</p>
+</li>
+<li>
+<p><code>staged</code>: área pra onde será criada versão</p>
+</li>
+<li>
+<p><code>commit</code>: pegue todos os arquivos staged e crie uma imagem, snapshot, uma versão git commit -m "Add readme.md"</p>
+</li>
+<li>
+<p><code>git status</code></p>
+</li>
+<li>
+<p><code>git add</code></p>
+</li>
+<li>
+<p><code>git log</code></p>
+</li>
+<li>
+<p><code>git log decorate</code></p>
+</li>
+<li>
+<p><code>git log --author="Oliver"</code></p>
+</li>
+<li>
+<p><code>git shortlog</code></p>
+</li>
+<li>
+<p><code>git shortlog -sn</code></p>
+</li>
+<li>
+<p><code>git log --graph</code></p>
+</li>
+<li>
+<p><code>git show</code></p>
+</li>
+<li>
+<p><code>git diff</code></p>
+</li>
+<li>
+<p><code>git diff --name-only</code></p>
+</li>
+<li>
+<p><code>git commit -am</code></p>
+</li>
+<li>
+<p><code>git reset</code></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><mark><strong>VOLTAR A VERSÃO</strong></mark></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>git checkout</code>: voltar o que foi feito antes sem commit</p>
+</li>
+<li>
+<p><code>git reset HEAD</code>: remover do stage</p>
+</li>
+<li>
+<p><strong>DEU RUIM: commitei e preciso voltar: volte sempre o commit anterior ao desejado</strong></p>
+</li>
+<li>
+<p><code>git reset --soft</code>: voltar o commit e o arquivo fica em stage</p>
+</li>
+<li>
+<p><code>git reset --mixed</code>: voltar o commit e o arquivo fica em modified</p>
+</li>
+<li>
+<p><code>git reset --hard</code>: ignorar a existência do commit e das alterações (<strong>MUITO CALMA NESSA ALMA</strong>)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><mark><strong>GITHUB</strong></mark></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>git remote add origin https://github.com/raloliver/githando.git</code></pre>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>origin nome default pra origem do remoto</p>
+</div>
+</blockquote>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>git push -u origin master (trackear repositorio)</code></pre>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>num primeiro momento é interessante usar tudo com -u para nas próximas vezes digitar apenas <code>gut push</code></p>
+</div>
+</blockquote>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>git remote -v</code></pre>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>mais detalhes da origem do repositório remoto</p>
+</div>
+</blockquote>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>git pull</code></pre>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>atualizar remote</p>
+</div>
+</blockquote>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>master</code>: brunch inicial</p>
+</li>
+<li>
+<p><code>git clone</code>: url SSH para clonar o repo local, não pode modificar e realizar push</p>
+</li>
+<li>
+<p><code>fork</code>: fazer uma copia pra depois enviar as modificações (<code>pull-request</code>)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong><mark>BRANCH</mark></strong></p>
+</div>
+<div class="paragraph">
+<p>Um ponteiro movel que leva um commit. pra cada hash, é criada um snapshot e o branch aponta para um determinado commit, que inicialmente se chama master.
+e um novo branch pode apontar para um mesmo commit, ou você pode ter um novo branch apontando para um novo commit  <img src="http://easycaptures.com/fs/uploaded/1132/4388317726.jpg" /></p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>vantagens: modificar sem alterar o master / facilmente desligável / melhor para equipes / evita conflitos e posso trabalhar com o mesmo arquivo.</p>
+</div>
+</blockquote>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>criação do brunch: <code>git checkout -b israel</code></p>
+</li>
+<li>
+<p>lista: <code>git branch</code></p>
+</li>
+<li>
+<p>entraR: <code>git checkout master</code></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><mark><strong>DELETAR BRUNCH</strong></mark></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>git branch -D branch-name</code></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong><mark>MERGE</mark></strong> (cria um commit novo, pra unir as diferenças)</p>
+</div>
+<div class="paragraph">
+<p><img src="http://easycaptures.com/fs/uploaded/1132/4825685558.jpg" /><img src="http://easycaptures.com/fs/uploaded/1132/3984703625.jpg" /></p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>exemplo de merge: (ciclo da forma diamante, [vértice])</p>
+</div>
+</blockquote>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>PRO: merge é uma operação não destrutiva</p>
+</li>
+<li>
+<p>CONTRA: merge precisa de um commit extra e deixa o histórico poluído</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><mark><strong>REBASE</strong></mark>
+<img src="http://easycaptures.com/fs/uploaded/1132/4814535745.jpg" /><img src="http://easycaptures.com/fs/uploaded/1132/2156899863.jpg" /></p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>exemplo de rebase: (joga as mudanças para o início da fila)</p>
+</div>
+</blockquote>
+</div>
+<div class="paragraph">
+<p><code>(fast-forward) git pull --rebase</code></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>PRO: rebase evita o commit extra e permanece o histórico linear</p>
+</li>
+<li>
+<p>CONTRA: perda da ordem cronológica por conta da mudança de histórico</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><mark><strong>MERGE x REBASE</strong></mark></p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>evite o chamado "guitar-hero" usando o merge, preferencialmente use o rebase.</p>
+</div>
+</blockquote>
+</div>
+<div class="paragraph">
+<p><code>- git merge branch-name</code></p>
+</div>
+<div class="paragraph">
+<p><mark><strong>GIT STASH</strong></mark></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Responsável por guardar num arquivo, modificações que ainda não foram commitadas e que eu posso chamar depois.</p>
+</li>
+<li>
+<p><code>git stash</code> (WIP: work in progress)</p>
+</li>
+<li>
+<p><code>git stash apply</code></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong><mark>ALIAS</strong></mark></p>
+</div>
+<div class="paragraph">
+<p><code>- git config --global alias.s status</code></p>
+</div>
+<div class="paragraph">
+<p><mark><strong>TAGS</strong></mark></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Delimitador com base em vários commits ou em novas versões que foram criadas.</p>
+</li>
+<li>
+<p>Geralmente utilizado para dar nome as versões.</p>
+</li>
+<li>
+<p><code>git tag -a 0.0.1 -m "Beta Tester"</code></p>
+</li>
+<li>
+<p><code>git push origin master --tags</code></p>
+</li>
+<li>
+<p><code>git tag</code></p>
+</li>
+<li>
+<p><code>git blame</code>: alteração linha a linha, quem fez e qual arquivo foi alterado, se o arquivo foi renomeado, data de alteração e o que foi alterado.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong><mark>GIT REVERT</mark></strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Busque o commit que deu problema em produção e volte a versão anterior usando o git revert hashdocomittquedeuruim</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><mark><strong>APAGAR TAGS E OUTROS NO REPOSITORIO REMOTO</strong></mark></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>git tag -d 1.0.1</code></p>
+</li>
+<li>
+<p><code>git push origin:.1.0.1</code></p>
+</li>
+<li>
+<p><code>git push origin: test</code></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><mark><strong>GIT FLOW</strong></mark></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>é uma extensão no git</p>
+</li>
+<li>
+<p>dois branches primários: master (em produção, [apenas pra merge]) e develop (para testes, [merge futuro para master])</p>
+</li>
+<li>
+<p>branches com ciclo de vida curtos: features, releases, hotfixes, bugfixes, supports.</p>
+</li>
+<li>
+<p><a href="https://github.com/nvie/gitflow" class="bare">https://github.com/nvie/gitflow</a></p>
+</li>
+<li>
+<p><a href="http://nvie.com/posts/a-successful-git-branching-model/" class="bare">http://nvie.com/posts/a-successful-git-branching-model/</a></p>
+</li>
+</ul>
+</div>
+    </div>
+
+    <div class="post related">
+
+    </div>
+
+    <footer class="post comments">
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+        var disqus_shortname = 'raloliver'; // required: replace example with your forum shortname
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </footer>
+
+  </article>
+
+
+        <footer>
+          <span class="copyright">
+            &copy; 2017. All rights reserved. Built with <a href="https://github.com/Kikobeats/uno-zen" target="_blank">Uno Zen</a> under <a href="http://hubpress.io/" target="_blank">HubPress</a>.
+          </span>
+        </footer>
+      </section>
+    </main>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();      
+      </script>
+    <script src="//raloliver.github.io/themes/uno-zen/assets/js/uno-zen.js?v=1.0.0" type="text/javascript" charset="utf-8"></script>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-25416638-56', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
