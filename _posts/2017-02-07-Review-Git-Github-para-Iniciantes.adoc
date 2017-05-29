@@ -1,0 +1,154 @@
+= Review: Git & Github para Iniciantes
+:published_at: 2017-02-07
+:hp-tags: git, github, review, teachable, willianjusten, cursos
+
+image::https://process.filestackapi.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://d2vvqscadf4c1f.cloudfront.net/agtKzpVQL25rGZut5tdz_maxresdefault%20(1).jpg[]
+
+---
+
+Principais comandos do terminal: https://goo.gl/DqpEBa
+
+*Git*: trabalha com os estados dos arquivos (outros sistemas trabalham com as diferenças).
+
+*Snapshots*: estados dos arquivos, todos os estados levam os arquivos daquele momento. 
+
+image::http://easycaptures.com/fs/uploaded/1132/3419459554.jpg[]
+
+História (*linus torvalds*): bitkeeper; mesmo criador do linux (indignação); melhorias: velocidade, design, não linear, grandes projetos.
+
+#*CONFIGURATION*#
+```
+git.config
+git.config.user 
+git.config.project
+git config --global user.name "Ral Oliver"
+```
+
+#*CICLO DE VIDA DOS STATUS DOS ARQUIVOS*# (https://goo.gl/HrS4LF)
+
+- `untracked` (não marcado): arquivo acabou de ser adicionado, mas não visto pelo git
+- `unmodified`: existe, mas não foi modificado
+- `modified`: arquivo modificado
+- `staged`: área pra onde será criada versão
+- `commit`: pegue todos os arquivos staged e crie uma imagem, snapshot, uma versão git commit -m "Add readme.md"
+- `git status`
+- `git add`
+- `git log`
+- `git log decorate`
+- `git log --author="Oliver"`
+- `git shortlog`
+- `git shortlog -sn`
+- `git log --graph`
+- `git show`
+- `git diff`
+- `git diff --name-only`
+- `git commit -am`
+- `git reset`
+
+#*VOLTAR A VERSÃO*#
+
+- `git checkout`: voltar o que foi feito antes sem commit
+- `git reset HEAD`: remover do stage
+- *DEU RUIM: commitei e preciso voltar: volte sempre o commit anterior ao desejado*
+- `git reset --soft`: voltar o commit e o arquivo fica em stage
+- `git reset --mixed`: voltar o commit e o arquivo fica em modified
+- `git reset --hard`: ignorar a existência do commit e das alterações (*MUITO CALMA NESSA ALMA*)
+
+#*GITHUB*#
+```
+git remote add origin https://github.com/raloliver/githando.git
+```
+> origin nome default pra origem do remoto
+```
+git push -u origin master (trackear repositorio)
+```
+> num primeiro momento é interessante usar tudo com -u para nas próximas vezes digitar apenas `gut push`
+```
+git remote -v
+```
+> mais detalhes da origem do repositório remoto
+```
+git pull
+```
+> atualizar remote
+
+- `master`: brunch inicial
+- `git clone`: url SSH para clonar o repo local, não pode modificar e realizar push
+- `fork`: fazer uma copia pra depois enviar as modificações (`pull-request`)
+
+*#BRANCH#*
+
+Um ponteiro movel que leva um commit. pra cada hash, é criada um snapshot e o branch aponta para um determinado commit, que inicialmente se chama master.
+e um novo branch pode apontar para um mesmo commit, ou você pode ter um novo branch apontando para um novo commit  +++<img src="http://easycaptures.com/fs/uploaded/1132/4388317726.jpg" />+++
+
+> vantagens: modificar sem alterar o master / facilmente desligável / melhor para equipes / evita conflitos e posso trabalhar com o mesmo arquivo.
+
+- criação do brunch: `git checkout -b israel`  
+- lista: `git branch`
+- entraR: `git checkout master`
+
+#*DELETAR BRUNCH*#
+
+- `git branch -D branch-name`
+
+*#MERGE#* (cria um commit novo, pra unir as diferenças)
+
++++<img src="http://easycaptures.com/fs/uploaded/1132/4825685558.jpg" /><img src="http://easycaptures.com/fs/uploaded/1132/3984703625.jpg" />+++ 
+
+> exemplo de merge: (ciclo da forma diamante, [vértice])
+
+- PRO: merge é uma operação não destrutiva
+- CONTRA: merge precisa de um commit extra e deixa o histórico poluído
+
+#*REBASE*# 
++++<img src="http://easycaptures.com/fs/uploaded/1132/4814535745.jpg" /><img src="http://easycaptures.com/fs/uploaded/1132/2156899863.jpg" />+++
+
+> exemplo de rebase: (joga as mudanças para o início da fila)
+
+`(fast-forward) git pull --rebase`
+
+- PRO: rebase evita o commit extra e permanece o histórico linear
+- CONTRA: perda da ordem cronológica por conta da mudança de histórico
+
+#*MERGE x REBASE*#
+
+> evite o chamado "guitar-hero" usando o merge, preferencialmente use o rebase.
+
+`- git merge branch-name`
+
+#*GIT STASH*#
+
+- Responsável por guardar num arquivo, modificações que ainda não foram commitadas e que eu posso chamar depois.
+- `git stash` (WIP: work in progress)
+- `git stash apply`
+
+*#ALIAS*#
+
+`- git config --global alias.s status`
+
+#*TAGS*#
+
+- Delimitador com base em vários commits ou em novas versões que foram criadas.
+- Geralmente utilizado para dar nome as versões.
+- `git tag -a 0.0.1 -m "Beta Tester"`
+- `git push origin master --tags`
+- `git tag`
+- `git blame`: alteração linha a linha, quem fez e qual arquivo foi alterado, se o arquivo foi renomeado, data de alteração e o que foi alterado.
+
+*#GIT REVERT#*
+
+- Busque o commit que deu problema em produção e volte a versão anterior usando o git revert hashdocomittquedeuruim
+
+#*APAGAR TAGS E OUTROS NO REPOSITORIO REMOTO*#
+
+- `git tag -d 1.0.1`
+- `git push origin:.1.0.1`
+- `git push origin: test`
+
+#*GIT FLOW*#
+
+- é uma extensão no git
+- dois branches primários: master (em produção, [apenas pra merge]) e develop (para testes, [merge futuro para master])
+- branches com ciclo de vida curtos: features, releases, hotfixes, bugfixes, supports.
+- https://github.com/nvie/gitflow
+- http://nvie.com/posts/a-successful-git-branching-model/
