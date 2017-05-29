@@ -65,7 +65,6 @@ D. Wireframe de alta fidelidade
 [NOTE]
 ( 50% definido com base nas definições do ‘Sistema de Navegação” na 3ª Camada tópico ‘C’ e 50% já visual.)
 
-
 #03 - Design da interface.#
 
 [NOTE]
